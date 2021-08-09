@@ -1,0 +1,99 @@
+
+
+git初始化
+	打开git bash
+	设置用户名和邮箱
+		git config --global user.name '你在GitHub注册的用户名'
+		git config --global user.email '你在GitHub注册的邮箱'
+	使用以下命令，查看设置的用户名和邮箱
+			git config user.name
+			git config user.email
+	.生成SSH公钥
+			ssh-keygen -t rsa -C '你在GitHub注册的邮箱'
+				在Git Bash输入这条命令，回车之后再按三个回车（默认存储位置，密码为空，确认密码）	
+	GitHub配置SSH公钥
+			在此路径下用记事本打开文件（id_rsa.pub）并全选复制里面的内容
+			C:\Users\你的用户名\.ssh
+			在GitHub点击你的头像，选择"Settings"，选择右边的"SSH and GPG Keys",选择New SSH Key，Title随便填，再把复制的公钥粘贴进Key里面，点击Add SSK key即完成。
+	
+
+正式使用
+		New repository
+		到时候自己手动新建一个README.md即可
+		链接及红框的内容，后面我们会用到
+		
+		上传项目
+			在你想上传的项目文件夹右键，选中Git Bash Here，即会弹出命令行窗口
+		初始化仓库
+				在命令行中输入初始化命令：
+				git init
+		创建README.md，可以自己在文件夹中手动创建，也可以使用命令创建
+									touch README.md
+		依次使用以下命令将文件夹的文件全部添加到暂存区并提交
+									git add .
+									git commit -m 'first commit'
+								注意add后面有个点，代表文件夹里面的所有文件，如果要提交某一个文件，将点替换成文件名或文件夹名；
+								commit -m后面的单引号内容为本次提交的注释，可以根据自己的要求填写。
+		
+		提交完成后，需要将远程仓库与本地仓库同步连接
+					git remote add origin 粘贴你自己的链接
+		最后一步将本地仓库的内容推送到远程仓库：
+					git push -u origin master
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

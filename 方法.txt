@@ -1,0 +1,9 @@
+网页版的官网可能进去的慢
+
+https://git-scm.com/download/win
+
+https://blog.csdn.net/qq_37838568/article/details/81052370?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-3.base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-3.base
+
+https://blog.csdn.net/qq_37838568/article/details/81053055
+
+其中git的环境变量在bin目录里面
